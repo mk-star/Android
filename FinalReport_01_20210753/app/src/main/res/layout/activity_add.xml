@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="도서 추가"
+        android:textColor="#B3505050"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivAddPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/tvAddTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:textColor="#B3505050"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etAddTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="제목을 입력하세요."
+        android:textColor="#99505050" />
+
+    <TextView
+        android:id="@+id/tvAddAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="작가"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etAddAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="작가를 입력하세요."
+        android:textColor="#99505050" />
+
+    <TextView
+        android:id="@+id/tvAddPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="출판사"
+        android:textColor="#B3505050"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etAddPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="출판사를 입력하세요."
+        android:textColor="#99505050" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가격"
+        android:textColor="#B3505050"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etAddPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="가격을 입력하세요."
+        android:textColor="#99505050" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAddBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4D505050"
+            android:text="추가"
+            android:textColor="#070707" />
+
+        <Button
+            android:id="@+id/btnAddCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4D505050"
+            android:text="취소"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
