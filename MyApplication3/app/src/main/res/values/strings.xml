@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="kobis_url">http://www.culture.go.kr/openapi/rest/publicperformancedisplays/period?ServiceKey=6kxaYkjhPFHK0hCs5uo13I7wOefeecQ8S%2FbHVRKoQkItRxGxgWyV0ParKFVRjRUlmUXBjrBNm9dRES4iw4FBOA%3D%3D"</string>
+    <string name="detail_url">http://www.culture.go.kr/openapi/rest/publicperformancedisplays/d/?ServiceKey=6kxaYkjhPFHK0hCs5uo13I7wOefeecQ8S%2FbHVRKoQkItRxGxgWyV0ParKFVRjRUlmUXBjrBNm9dRES4iw4FBOA%3D%3D"</string>
+</resources>
